@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WEB INFORMATICA</title>
+    <h1><font color="red">Web Informatica</font></h1>
+    <p><font size=5><font color="white">Bienvenido ala web privada de informatica, donde encontraras soluciones a tus problemas, ya sea configuraciones de pc, camaras, videojuegos y mucho mas.</font></font></p>
+    <p><b>¿Estas buscando solucionar tu sistema, tu consola y más? ===></b><a href="file:///D:/WEB%20DE%20INFORMACI%C3%93N/css%20y%20los%20estilos%20web/web-informatica.html"><font color="white"><b>hacé click aquí.</b></font></a>
+    <p><font size=4><b>Si no encuentras lo que necesitas en el foro, no dudes en contactarte con nosotros. 《》《》《》《》</b></p>
+    <form action="mailto:ftamajon@yahoo.es" method="post" enctype="text/plain">
+<b>Nombre</b> <input type="text" name="nombre" size="30" maxlength="100">
+<br>
+<b>Email</b> <input type="text" name="email" size="25" maxlength="100" value="@">
+<br>
+<b>Población</b> <input type="text" name="poblacion" size="20" maxlength="60">
+<br>
+<b>Solicitud</b>
+<br>
+<input type="radio" name="sexo" value="Varon" checked> <b>Emergencia</b>
+<br>
+<input type="radio" name="sexo" value="Hembra"> <b>En espera</b>
+<br>
+<br>
+<b>Opciones</b>
+<br>
+<select name="utilizacion">
+    <option value="1">Reparación de Pc
+    <option value="2">Configuraciónes
+    <option value="3">Instalaciones de Software
+    <option value="4">Otros
+</select>
+<br>
+<br>
+<b>Comente lo que necesite en la descripción.</b>
+<br>
+<textarea cols="30" rows="7" name="comentarios"></textarea>
+<br>
+<br>
+<input type="checkbox" name="recibir_info" checked>
+<b>Deseo recibir notificación de las novedades con el servicio técnico.</b>
+<br>
+<br>
+<input type="submit" value="Enviar formulario">
+<br>
+<br>
+<input type="button" onclick="ConfirmDemo()" value="Aceptar y enviar" />
+<br>
+<br>
+<input type="Reset" value="Borrar todo">
+</form>
+<script type="text/javascript">
+function ConfirmDemo() {
+//Ingresamos un mensaje a mostrar
+var mensaje = confirm("¿Estas de acuerdo?");
+//Detectamos si el usuario acepto el mensaje
+if (mensaje) {
+alert("¡Gracias por aceptar!");
+}
+//Detectamos si el usuario denegó el mensaje
+else {
+alert("¡Haz denegado el mensaje!");
+}
+}
+</script>
+  </head>
+  <body>
+    <body background="fondo.jpg">
+  </body>
+</html>
